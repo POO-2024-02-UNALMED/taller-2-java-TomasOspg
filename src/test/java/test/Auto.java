@@ -34,9 +34,9 @@ class Auto {
 			
 			for(int i = 0; i < this.asientos.length; i++){
 				
-				if(asientos[i] != null) {
+				if(asientos[i] != null){
 					
-					if(asientos[i].registro == this.registro) {
+					if(asientos[i].registro != this.registro) {
 						return "Las piezas no son originales";
 					}
 					
@@ -44,7 +44,7 @@ class Auto {
 				
 			}
 			
-			return "Auto Original";
+			return "Auto original";
 		}
 		else {
 			return "Las piezas no son originales";
