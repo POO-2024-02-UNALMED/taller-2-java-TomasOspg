@@ -32,7 +32,7 @@ class Auto {
 		
 		if(this.registro == this.motor.registro){
 			
-			for(int i = 0; i < this.asientos.length;){
+			for(int i = 0; i < this.asientos.length; i++){
 				
 				if(asientos[i] != null) {
 					
@@ -47,9 +47,7 @@ class Auto {
 			return "Auto Original";
 		}
 		else {
-			
-		return "Las piezas no son originales";
-		
+			return "Las piezas no son originales";
 		}
 		
 	}
